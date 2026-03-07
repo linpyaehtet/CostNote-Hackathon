@@ -1,19 +1,29 @@
 'use client';
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
 import { Zap } from 'lucide-react';
+
+// 1. The Blueprint: This tells TypeScript exactly what the AI will give us
+interface ExpenseData {
+  raw: string;
+  category?: string;
+  amount?: number;
+  insight?: string;
+}
 
 export default function CostNote() {
   const [inputText, setInputText] = useState('');
-  const [expenses, setExpenses] = useState([]);
+  
+  // 2. We attach the blueprint to our array so it's no longer type 'never'
+  const [expenses, setExpenses] = useState<ExpenseData[]>([]);
   const [isParsing, setIsParsing] = useState(false);
 
-  const handleLogExpense = async (e) => {
+  // 3. We tell TypeScript that 'e' is specifically a FormEvent
+  const handleLogExpense = async (e: FormEvent) => {
     e.preventDefault();
     if (!inputText) return;
     setIsParsing(true);
 
     try {
-      // Call our Next.js API route
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -21,6 +31,16 @@ export default function CostNote() {
       });
       
       const aiData = await res.json();
+      
+      // 🚨 THE SNITCH: This prints the exact AI response to your browser console
+      console.log("AI RESPONSE:", aiData); 
+
+      // 🚨 THE GUARD: If there's an error, pop up an alert so we see it
+      if (aiData.error) {
+        alert("🚨 AI Error: Check your VS Code Terminal for the exact reason!");
+        setIsParsing(false);
+        return; 
+      }
       
       setExpenses([{ raw: inputText, ...aiData }, ...expenses]);
       setInputText('');
@@ -53,7 +73,6 @@ export default function CostNote() {
           </form>
         </div>
 
-        {/* Display the AI Results */}
         <div className="space-y-4">
           {expenses.map((exp, idx) => (
             <div key={idx} className="bg-gray-800 p-4 rounded-xl border border-purple-500/30">
