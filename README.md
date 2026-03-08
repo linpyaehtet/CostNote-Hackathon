@@ -16,7 +16,15 @@ Food prices, daily expenses, and essential costs change constantly, yet most peo
 Without transparency, people overspend or miss better alternatives simply because they do not have timely information.
 
 ## Overview & Solution
-CostNote solves the friction of financial tracking for Gen Z. By using a natural language "Notes" interface (e.g., typing "coffee 5"), our app automatically categorizes expenses, cross-references them with live local averages, and checks them against existing BNPL debt to provide instant, actionable financial insights.
+CostNote solves the friction of financial tracking for Gen Z. By using a natural language "Notes" interface (e.g., typing "coffee 5"), our app automatically categorizes expenses, benchmarks them against typical local prices, and checks them against existing BNPL debt to provide instant, actionable financial insights. On top of that, a monthly budgeting layer helps students stay on track with their saving goals.
+
+## Key Features
+- **Natural language expense diary**: Students type like they would in a notes app (e.g. `chicken rice 8 at Clementi MRT`), and the AI parses category, amount, and intent.
+- **Real-time price benchmarking**: Each expense is compared against an estimated local area average, with a clear label such as **good deal**, **about average**, or **above area average**.
+- **Cheaper nearby suggestions**: When the price is high, the app can suggest a cheaper nearby alternative (simulated using data.gov.sg and OneMap for the prototype).
+- **Monthly budget & saving goal onboarding**: On first open, students set how much money they have to manage this month and how much they want to save.
+- **Safe-to-spend guidance**: The app calculates a “safe to spend” monthly amount after savings, shows how much is left, and warns when spending is close to or exceeding that limit.
+- **Spending breakdown dashboard**: A visual breakdown (via pie chart) shows where money is going (Food, Transport, Groceries, Treats), aligned with the problem statement categories.
 
 ## Tech Stack & Architecture
 * **Frontend:** Next.js 16.1 (React) with Tailwind CSS for a highly responsive mobile-first UI.
