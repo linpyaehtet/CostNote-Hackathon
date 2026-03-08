@@ -4,13 +4,17 @@
 ## Team Details
 * **Team Name:** [Team Name]
 * **Members:**
-* * Julia Arngold - [student ID]
+* * Julia Arngold - 14623648
   * Trinh Mai Thanh - 14934338
   * Lin Pyae Htet - 14629713
   * Jinhui Zhao - 15027837
 
 ## Problem Statement 
-[re-edit later]
+Food prices, daily expenses, and essential costs change constantly, yet most people lack visibility into real time price trends or nearby affordable options.
+
+Students and young adults often struggle to budget effectively because pricing information is scattered across platforms and not designed for intelligent comparison.
+
+Without transparency, people overspend or miss better alternatives simply because they do not have timely information.
 
 ## Overview
 CostNote solves the friction of financial tracking for Gen Z. By using natural language input (e.g., "coffee 5"), our app automatically categorizes expenses, cross-references them with live local averages, and checks them against existing BNPL debt to provide instant, actionable financial insights.
