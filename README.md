@@ -2,8 +2,8 @@
 **TR1 2026 AI Hackathon - Option 3: Real-Time Cost of Living Awareness**
 
 ## Team Details
-* **Team Name:** [Insert Team Name Here]
-* **GitHub Repository:** [Insert your GitHub Link Here]
+* **Team Name:** CostNote - Team 6
+* **GitHub Repository:** https://github.com/linpyaehtet/CostNote-Hackathon
 * **Members:**
   * Julia Arngold - 14623648
   * Trinh Mai Thanh - 14934338
