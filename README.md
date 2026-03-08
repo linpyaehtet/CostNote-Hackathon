@@ -3,8 +3,11 @@
 
 ## Team Details
 * **Team Name:** [Team Name]
-* **Members:** * [Member 1 Name] - [Student ID]
-  * [Member 2 Name] - [Student ID]
+* **Members:**
+* * Julia Arngold - [student ID]
+  * Trinh Mai Thanh - 14934338
+  * Lin Pyae Htet - 14629713
+  * Jinhui Zhao - 15027837
 
 ## Overview
 CostNote solves the friction of financial tracking for Gen Z. By using natural language input (e.g., "coffee 5"), our app automatically categorizes expenses, cross-references them with live local averages, and checks them against existing BNPL debt to provide instant, actionable financial insights.
