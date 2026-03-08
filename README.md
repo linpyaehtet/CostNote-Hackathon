@@ -45,5 +45,5 @@ To handle high volumes of concurrent "micro-transactions" typical of budgeting a
 5. Run `npm run dev` in your IDE terminal and open `http://localhost:3000`.
 
 ## Academic Integrity & AI Usage Declaration
-* **AI Tools Used for Assistance:** Gemini 3.1 Pro (Used for architecture brainstorming, React component generation, and debugging assistance).
+* **AI Tools Used for Assistance:** Gemini 3.1 Pro and Cursor AI (Used for architecture brainstorming, React component generation, and debugging assistance).
 * All code has been reviewed, understood, and implemented by the team. Solutions are entirely original.
