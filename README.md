@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CostNote: The Note App for Personal Finance
+**TR1 2026 AI Hackathon - Option 3: Real-Time Cost of Living Awareness**
 
-## Getting Started
+## Team Details
+* **Team Name:** [Team Name]
+* **Members:** * [Member 1 Name] - [Student ID]
+  * [Member 2 Name] - [Student ID]
 
-First, run the development server:
+## Overview
+CostNote solves the friction of financial tracking for Gen Z. By using natural language input (e.g., "coffee 5"), our app automatically categorizes expenses, cross-references them with live local averages, and checks them against existing BNPL debt to provide instant, actionable financial insights.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack & APIs Used
+* **Frontend:** Next.js (React), Tailwind CSS
+* **Backend:** Next.js API Routes (Serverless)
+* **AI Processing:** Claude 3 Haiku API (Anthropic) - Used for natural language parsing and insight generation.
+* **Data Sources (Simulated for Prototype):** data.gov.sg (pricing averages), OneMap (location services).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Run Locally
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Create a `.env.local` file in the root directory.
+4. Add your API key: `ANTHROPIC_API_KEY=your_key_here`
+5. Run `npm run dev` and open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Academic Integrity & AI Usage Declaration
+* AI Tools Used for Assistance: Gemini 3.1 Pro (Used for architecture brainstorming, React component generation, and debugging assistance).
+* All code has been reviewed, understood, and implemented by the team.
