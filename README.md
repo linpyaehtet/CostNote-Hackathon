@@ -10,7 +10,7 @@
   * Jinhui Zhao - 15027837
 
 ## Problem Statement 
-Singaporean Gen Zs face a "Micro-leak" crisis: 77% use Buy Now, Pay Later (BNPL) for daily items , and 57% overspend on "small treats" for mental wellness. Existing finance apps have a 77% abandonment rate because they are too complex. In this project, we have came up with a financial tracking app called, "**CostNote**".
+[re-edit later]
 
 ## Overview
 CostNote solves the friction of financial tracking for Gen Z. By using natural language input (e.g., "coffee 5"), our app automatically categorizes expenses, cross-references them with live local averages, and checks them against existing BNPL debt to provide instant, actionable financial insights.
