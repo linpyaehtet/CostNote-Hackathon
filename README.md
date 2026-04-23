@@ -47,3 +47,7 @@ To handle high volumes of concurrent "micro-transactions" typical of budgeting a
 ## Academic Integrity & AI Usage Declaration
 * **AI Tools Used for Assistance:** Gemini 3.1 Pro and Cursor AI (Used for architecture brainstorming, React component generation, and debugging assistance).
 * All code has been reviewed, understood, and implemented by the team. Solutions are entirely original.
+
+## Screenshots
+<img width="474" height="745" alt="Screenshot 2026-04-23 at 9 53 42 AM" src="https://github.com/user-attachments/assets/9f5b2b67-e985-4505-bcb3-3612e558f670" />
+<img width="500" height="509" alt="Screenshot 2026-04-23 at 9 53 51 AM" src="https://github.com/user-attachments/assets/27149aef-8a17-49b0-8e4e-5d72a67a4986" />
