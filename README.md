@@ -49,5 +49,8 @@ To handle high volumes of concurrent "micro-transactions" typical of budgeting a
 * All code has been reviewed, understood, and implemented by the team. Solutions are entirely original.
 
 ## Screenshots
-<img width="474" height="745" alt="Screenshot 2026-04-23 at 9 53 42 AM" src="https://github.com/user-attachments/assets/9f5b2b67-e985-4505-bcb3-3612e558f670" />
+The main page to track finances as a diary:
+<img width="517" height="751" alt="Screenshot 2026-04-23 at 9 55 05 AM" src="https://github.com/user-attachments/assets/4a9cf42a-279d-41f8-9406-d1a565a6f58f" />
+
+The Breakdown:
 <img width="500" height="509" alt="Screenshot 2026-04-23 at 9 53 51 AM" src="https://github.com/user-attachments/assets/27149aef-8a17-49b0-8e4e-5d72a67a4986" />
